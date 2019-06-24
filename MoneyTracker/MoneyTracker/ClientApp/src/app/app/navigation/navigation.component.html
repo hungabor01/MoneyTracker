@@ -1,0 +1,63 @@
+<div class="nav-side-menu">
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+    <div class="brand" (click)="onNavigationClick()">Navigation</div>              
+    <div class="menu-list">
+        <ul id="menu-content" class="menu-content collapse out">
+
+            <li data-toggle="collapse" data-target="#CashFlow" class="collapsed"  (click)="onCashFlowClick()">
+                <a><i class="fa fa-balance-scale" ></i> Cash Flow <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="CashFlow">
+                <li>Incomes</li>
+            </ul>
+            <ul class="sub-menu collapse" id="CashFlow">
+                <li>Expenses</li>
+            </ul>
+            <ul class="sub-menu collapse" id="CashFlow">
+                <li>Charts</li>
+            </ul>
+
+            <li data-toggle="collapse" data-target="#Investment" class="collapsed"  (click)="onInvestmentClick()">
+                <a><i class="fa fa-line-chart fa-lg"></i> Investment <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="Investment">
+                <li>Cash</li>
+            </ul>
+            <ul class="sub-menu collapse" id="Investment">
+                <li>Currency</li>
+            </ul>
+            <ul class="sub-menu collapse" id="Investment">
+                <li>Gold</li>
+            </ul>
+            <ul class="sub-menu collapse" id="Investment">
+                <li>Gov. Securities</li>
+            </ul>
+            <ul class="sub-menu collapse" id="Investment">
+                <li>Bond</li>
+            </ul>
+            <ul class="sub-menu collapse" id="Investment">
+                <li>Stock Exchange</li>
+            </ul>
+
+            <li data-toggle="collapse" data-target="#Betting" class="collapsed"  (click)="onBettingClick()">
+                <a><i class="fa fa-handshake-o fa-lg"></i> Betting <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="Betting">
+                <li>New New 1</li>
+            </ul>
+            <ul class="sub-menu collapse" id="Betting">
+                <li>New New 1</li>
+            </ul>
+
+            <li data-toggle="collapse" data-target="#Wikipedia" class="collapsed" (click)="onWikipediaClick()">
+                <a><i class="fa fa-university fa-lg"></i> Wikipedia <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="Wikipedia">
+                <li>Wikipedia Item 1</li>
+            </ul>
+            <ul class="sub-menu collapse" id="Wikipedia">
+                <li>Wikipedia Item 2</li>
+            </ul>
+        </ul>
+    </div>
+</div>
